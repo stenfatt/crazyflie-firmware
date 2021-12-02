@@ -1,6 +1,9 @@
 # Crazyflie Firmware  [![CI](https://github.com/bitcraze/crazyflie-firmware/workflows/CI/badge.svg)](https://github.com/bitcraze/crazyflie-firmware/actions?query=workflow%3ACI)
 
 This project contains the source code for the firmware used in the Crazyflie range of platforms, including the Crazyflie 2.X and the Roadrunner.
+NHR: Firmware is modified to allow streaming of a control vector [ang_rate_roll, ang_rate_pitch, ang_rate_yaw, thrust], which is fed to an adaptive INDI controller. 
+This INDI controller takes commands from a MPC controller running on a seperate entity.
+
 
 ### Crazyflie 1.0 support
 
